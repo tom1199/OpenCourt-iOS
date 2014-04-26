@@ -7,12 +7,16 @@
 //
 
 #import "OCAppDelegate.h"
+#import <Parse/Parse.h>
+#import "Court.h"
 
 @implementation OCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [self parseSetupWithOptions:launchOptions];
+    
+    
     return YES;
 }
 							
@@ -43,4 +47,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)parseSetupWithOptions:(NSDictionary *)launchOptions {
+    
+    [Court registerSubclass];
+    
+    [Parse setApplicationId:@"vWx7LRkyHde6teSVQrCaRHTBYucPdmTSdH6wuNj6"
+                  clientKey:@"RHdjhf8fXMiVdMfCuB4YMwlkbvYtSdtmPl3IF7Ml"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+}
 @end

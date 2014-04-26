@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E26CCBD018EEA4C40062D5EA /* OCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCBCF18EEA4C40062D5EA /* OCLocationManager.m */; };
+		E26CCBD318EEA6BB0062D5EA /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCBD218EEA6BB0062D5EA /* MKMapView+ZoomLevel.m */; };
+		E26CCBD618EEB84A0062D5EA /* AddCourtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCBD518EEB84A0062D5EA /* AddCourtViewController.m */; };
+		E2A4049C18D9DFEA000803D4 /* Court.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A4049B18D9DFEA000803D4 /* Court.m */; };
+		E2A404A918DB2DA4000803D4 /* ClusterMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A4049E18DB2DA4000803D4 /* ClusterMapViewController.m */; };
+		E2A404AB18DB2DA4000803D4 /* OCClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404A218DB2DA4000803D4 /* OCClusterAnnotation.m */; };
+		E2A404AC18DB2DA4000803D4 /* OCClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404A418DB2DA4000803D4 /* OCClusterAnnotationView.m */; };
+		E2A404AD18DB2DA4000803D4 /* OCCoordinateQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404A618DB2DA4000803D4 /* OCCoordinateQuadTree.m */; };
+		E2A404AE18DB2DA4000803D4 /* TBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404A818DB2DA4000803D4 /* TBQuadTree.m */; };
+		E2A404B318DB367B000803D4 /* OCDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404B218DB367B000803D4 /* OCDataManager.m */; };
+		E2A404B618DF2F52000803D4 /* UIColor+OCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A404B518DF2F52000803D4 /* UIColor+OCColor.m */; };
 		E2B1A60318D894BD0085549C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A60218D894BD0085549C /* Foundation.framework */; };
 		E2B1A60518D894BD0085549C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A60418D894BD0085549C /* CoreGraphics.framework */; };
 		E2B1A60718D894BD0085549C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A60618D894BD0085549C /* UIKit.framework */; };
@@ -14,13 +25,22 @@
 		E2B1A60F18D894BD0085549C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B1A60E18D894BD0085549C /* main.m */; };
 		E2B1A61318D894BD0085549C /* OCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B1A61218D894BD0085549C /* OCAppDelegate.m */; };
 		E2B1A61618D894BD0085549C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1A61418D894BD0085549C /* Main.storyboard */; };
-		E2B1A61918D894BD0085549C /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B1A61818D894BD0085549C /* OCViewController.m */; };
 		E2B1A61B18D894BD0085549C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B1A61A18D894BD0085549C /* Images.xcassets */; };
 		E2B1A62218D894BD0085549C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A62118D894BD0085549C /* XCTest.framework */; };
 		E2B1A62318D894BD0085549C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A60218D894BD0085549C /* Foundation.framework */; };
 		E2B1A62418D894BD0085549C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A60618D894BD0085549C /* UIKit.framework */; };
 		E2B1A62C18D894BD0085549C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B1A62A18D894BD0085549C /* InfoPlist.strings */; };
 		E2B1A62E18D894BD0085549C /* OpenCourtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B1A62D18D894BD0085549C /* OpenCourtTests.m */; };
+		E2B1A63818D894E90085549C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A63718D894E90085549C /* AudioToolbox.framework */; };
+		E2B1A63A18D894F00085549C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A63918D894F00085549C /* CFNetwork.framework */; };
+		E2B1A63C18D895080085549C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A63B18D895080085549C /* CoreLocation.framework */; };
+		E2B1A63E18D895140085549C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A63D18D895140085549C /* libz.dylib */; };
+		E2B1A64018D895260085549C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A63F18D895260085549C /* MobileCoreServices.framework */; };
+		E2B1A64218D8952E0085549C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A64118D8952E0085549C /* QuartzCore.framework */; };
+		E2B1A64418D895340085549C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A64318D895340085549C /* Security.framework */; };
+		E2B1A64618D8953C0085549C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A64518D8953C0085549C /* StoreKit.framework */; };
+		E2B1A64818D895460085549C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A64718D895450085549C /* SystemConfiguration.framework */; };
+		E2B1A64A18D895BB0085549C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B1A64918D895BB0085549C /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E26CCBCE18EEA4C40062D5EA /* OCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCLocationManager.h; sourceTree = "<group>"; };
+		E26CCBCF18EEA4C40062D5EA /* OCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCLocationManager.m; sourceTree = "<group>"; };
+		E26CCBD118EEA6BB0062D5EA /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		E26CCBD218EEA6BB0062D5EA /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		E26CCBD418EEB84A0062D5EA /* AddCourtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCourtViewController.h; sourceTree = "<group>"; };
+		E26CCBD518EEB84A0062D5EA /* AddCourtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCourtViewController.m; sourceTree = "<group>"; };
+		E2A4049A18D9DFEA000803D4 /* Court.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Court.h; sourceTree = "<group>"; };
+		E2A4049B18D9DFEA000803D4 /* Court.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Court.m; sourceTree = "<group>"; };
+		E2A4049D18DB2DA4000803D4 /* ClusterMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterMapViewController.h; sourceTree = "<group>"; };
+		E2A4049E18DB2DA4000803D4 /* ClusterMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterMapViewController.m; sourceTree = "<group>"; };
+		E2A4049F18DB2DA4000803D4 /* MapListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapListViewController.h; sourceTree = "<group>"; };
+		E2A404A018DB2DA4000803D4 /* MapListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapListViewController.m; sourceTree = "<group>"; };
+		E2A404A118DB2DA4000803D4 /* OCClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCClusterAnnotation.h; sourceTree = "<group>"; };
+		E2A404A218DB2DA4000803D4 /* OCClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCClusterAnnotation.m; sourceTree = "<group>"; };
+		E2A404A318DB2DA4000803D4 /* OCClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCClusterAnnotationView.h; sourceTree = "<group>"; };
+		E2A404A418DB2DA4000803D4 /* OCClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCClusterAnnotationView.m; sourceTree = "<group>"; };
+		E2A404A518DB2DA4000803D4 /* OCCoordinateQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCoordinateQuadTree.h; sourceTree = "<group>"; };
+		E2A404A618DB2DA4000803D4 /* OCCoordinateQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCCoordinateQuadTree.m; sourceTree = "<group>"; };
+		E2A404A718DB2DA4000803D4 /* TBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBQuadTree.h; sourceTree = "<group>"; };
+		E2A404A818DB2DA4000803D4 /* TBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBQuadTree.m; sourceTree = "<group>"; };
+		E2A404B118DB367B000803D4 /* OCDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDataManager.h; sourceTree = "<group>"; };
+		E2A404B218DB367B000803D4 /* OCDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDataManager.m; sourceTree = "<group>"; };
+		E2A404B418DF2F52000803D4 /* UIColor+OCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+OCColor.h"; sourceTree = "<group>"; };
+		E2A404B518DF2F52000803D4 /* UIColor+OCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OCColor.m"; sourceTree = "<group>"; };
 		E2B1A5FF18D894BD0085549C /* OpenCourt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCourt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B1A60218D894BD0085549C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2B1A60418D894BD0085549C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +89,22 @@
 		E2B1A61118D894BD0085549C /* OCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAppDelegate.h; sourceTree = "<group>"; };
 		E2B1A61218D894BD0085549C /* OCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAppDelegate.m; sourceTree = "<group>"; };
 		E2B1A61518D894BD0085549C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2B1A61718D894BD0085549C /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
-		E2B1A61818D894BD0085549C /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		E2B1A61A18D894BD0085549C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E2B1A62018D894BD0085549C /* OpenCourtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCourtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B1A62118D894BD0085549C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E2B1A62918D894BD0085549C /* OpenCourtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCourtTests-Info.plist"; sourceTree = "<group>"; };
 		E2B1A62B18D894BD0085549C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2B1A62D18D894BD0085549C /* OpenCourtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCourtTests.m; sourceTree = "<group>"; };
+		E2B1A63718D894E90085549C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E2B1A63918D894F00085549C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E2B1A63B18D895080085549C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2B1A63D18D895140085549C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E2B1A63F18D895260085549C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E2B1A64118D8952E0085549C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2B1A64318D895340085549C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E2B1A64518D8953C0085549C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E2B1A64718D895450085549C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E2B1A64918D895BB0085549C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = OpenCourt/Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +112,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B1A64A18D895BB0085549C /* Parse.framework in Frameworks */,
+				E2B1A64818D895460085549C /* SystemConfiguration.framework in Frameworks */,
+				E2B1A64618D8953C0085549C /* StoreKit.framework in Frameworks */,
+				E2B1A64418D895340085549C /* Security.framework in Frameworks */,
+				E2B1A64218D8952E0085549C /* QuartzCore.framework in Frameworks */,
+				E2B1A64018D895260085549C /* MobileCoreServices.framework in Frameworks */,
+				E2B1A63E18D895140085549C /* libz.dylib in Frameworks */,
+				E2B1A63C18D895080085549C /* CoreLocation.framework in Frameworks */,
+				E2B1A63A18D894F00085549C /* CFNetwork.framework in Frameworks */,
+				E2B1A63818D894E90085549C /* AudioToolbox.framework in Frameworks */,
 				E2B1A60518D894BD0085549C /* CoreGraphics.framework in Frameworks */,
 				E2B1A60718D894BD0085549C /* UIKit.framework in Frameworks */,
 				E2B1A60318D894BD0085549C /* Foundation.framework in Frameworks */,
@@ -79,6 +141,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2A4049818D9DF70000803D4 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				E2A404B118DB367B000803D4 /* OCDataManager.h */,
+				E2A404B218DB367B000803D4 /* OCDataManager.m */,
+				E2A4049A18D9DFEA000803D4 /* Court.h */,
+				E2A4049B18D9DFEA000803D4 /* Court.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		E2A4049918D9DF79000803D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2A404B018DB335D000803D4 /* Map */,
+				E2A4049F18DB2DA4000803D4 /* MapListViewController.h */,
+				E2A404A018DB2DA4000803D4 /* MapListViewController.m */,
+				E26CCBD418EEB84A0062D5EA /* AddCourtViewController.h */,
+				E26CCBD518EEB84A0062D5EA /* AddCourtViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E2A404AF18DB2F85000803D4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCBD118EEA6BB0062D5EA /* MKMapView+ZoomLevel.h */,
+				E26CCBD218EEA6BB0062D5EA /* MKMapView+ZoomLevel.m */,
+				E2A404B418DF2F52000803D4 /* UIColor+OCColor.h */,
+				E2A404B518DF2F52000803D4 /* UIColor+OCColor.m */,
+				E26CCBCE18EEA4C40062D5EA /* OCLocationManager.h */,
+				E26CCBCF18EEA4C40062D5EA /* OCLocationManager.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E2A404B018DB335D000803D4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E2A4049D18DB2DA4000803D4 /* ClusterMapViewController.h */,
+				E2A4049E18DB2DA4000803D4 /* ClusterMapViewController.m */,
+				E2A404A318DB2DA4000803D4 /* OCClusterAnnotationView.h */,
+				E2A404A418DB2DA4000803D4 /* OCClusterAnnotationView.m */,
+				E2A404A118DB2DA4000803D4 /* OCClusterAnnotation.h */,
+				E2A404A218DB2DA4000803D4 /* OCClusterAnnotation.m */,
+				E2A404A518DB2DA4000803D4 /* OCCoordinateQuadTree.h */,
+				E2A404A618DB2DA4000803D4 /* OCCoordinateQuadTree.m */,
+				E2A404A718DB2DA4000803D4 /* TBQuadTree.h */,
+				E2A404A818DB2DA4000803D4 /* TBQuadTree.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		E2B1A5F618D894BD0085549C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +216,16 @@
 		E2B1A60118D894BD0085549C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2B1A64918D895BB0085549C /* Parse.framework */,
+				E2B1A64718D895450085549C /* SystemConfiguration.framework */,
+				E2B1A64518D8953C0085549C /* StoreKit.framework */,
+				E2B1A64318D895340085549C /* Security.framework */,
+				E2B1A64118D8952E0085549C /* QuartzCore.framework */,
+				E2B1A63F18D895260085549C /* MobileCoreServices.framework */,
+				E2B1A63D18D895140085549C /* libz.dylib */,
+				E2B1A63B18D895080085549C /* CoreLocation.framework */,
+				E2B1A63918D894F00085549C /* CFNetwork.framework */,
+				E2B1A63718D894E90085549C /* AudioToolbox.framework */,
 				E2B1A60218D894BD0085549C /* Foundation.framework */,
 				E2B1A60418D894BD0085549C /* CoreGraphics.framework */,
 				E2B1A60618D894BD0085549C /* UIKit.framework */,
@@ -112,12 +237,13 @@
 		E2B1A60818D894BD0085549C /* OpenCourt */ = {
 			isa = PBXGroup;
 			children = (
+				E2B1A61A18D894BD0085549C /* Images.xcassets */,
+				E2B1A61418D894BD0085549C /* Main.storyboard */,
 				E2B1A61118D894BD0085549C /* OCAppDelegate.h */,
 				E2B1A61218D894BD0085549C /* OCAppDelegate.m */,
-				E2B1A61418D894BD0085549C /* Main.storyboard */,
-				E2B1A61718D894BD0085549C /* OCViewController.h */,
-				E2B1A61818D894BD0085549C /* OCViewController.m */,
-				E2B1A61A18D894BD0085549C /* Images.xcassets */,
+				E2A4049918D9DF79000803D4 /* Controller */,
+				E2A4049818D9DF70000803D4 /* Modal */,
+				E2A404AF18DB2F85000803D4 /* Helpers */,
 				E2B1A60918D894BD0085549C /* Supporting Files */,
 			);
 			path = OpenCourt;
@@ -197,9 +323,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OC;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Waterdrop;
 				TargetAttributes = {
+					E2B1A5FE18D894BD0085549C = {
+						DevelopmentTeam = 26HM56477S;
+					};
 					E2B1A61F18D894BD0085549C = {
 						TestTargetID = E2B1A5FE18D894BD0085549C;
 					};
@@ -250,9 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A404A918DB2DA4000803D4 /* ClusterMapViewController.m in Sources */,
+				E26CCBD318EEA6BB0062D5EA /* MKMapView+ZoomLevel.m in Sources */,
+				E26CCBD018EEA4C40062D5EA /* OCLocationManager.m in Sources */,
+				E2A404AC18DB2DA4000803D4 /* OCClusterAnnotationView.m in Sources */,
+				E2A4049C18D9DFEA000803D4 /* Court.m in Sources */,
+				E2A404AD18DB2DA4000803D4 /* OCCoordinateQuadTree.m in Sources */,
+				E26CCBD618EEB84A0062D5EA /* AddCourtViewController.m in Sources */,
 				E2B1A61318D894BD0085549C /* OCAppDelegate.m in Sources */,
+				E2A404B318DB367B000803D4 /* OCDataManager.m in Sources */,
+				E2A404AE18DB2DA4000803D4 /* TBQuadTree.m in Sources */,
+				E2A404AB18DB2DA4000803D4 /* OCClusterAnnotation.m in Sources */,
 				E2B1A60F18D894BD0085549C /* main.m in Sources */,
-				E2B1A61918D894BD0085549C /* OCViewController.m in Sources */,
+				E2A404B618DF2F52000803D4 /* UIColor+OCColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +445,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +483,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -379,9 +516,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Tom/Dropbox/OpenCourt/OpenCourt,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCourt/OpenCourt-Prefix.pch";
 				INFOPLIST_FILE = "OpenCourt/OpenCourt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +535,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Tom/Dropbox/OpenCourt/OpenCourt,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCourt/OpenCourt-Prefix.pch";
 				INFOPLIST_FILE = "OpenCourt/OpenCourt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,7 +552,6 @@
 		E2B1A63518D894BD0085549C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCourt.app/OpenCourt";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +574,6 @@
 		E2B1A63618D894BD0085549C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCourt.app/OpenCourt";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +608,7 @@
 				E2B1A63318D894BD0085549C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B1A63418D894BD0085549C /* Build configuration list for PBXNativeTarget "OpenCourtTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +617,7 @@
 				E2B1A63618D894BD0085549C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

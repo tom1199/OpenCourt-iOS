@@ -13,4 +13,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+    #define SYSTEM_DEVICE_IS_4_INCH (([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE)
+
 #endif
